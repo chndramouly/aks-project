@@ -13,7 +13,7 @@ variable "resource_group_name" {
 variable "acr_name" {
   description = "Name for the Azure Container Registry (globally unique, lowercase)"
   type        = string
-  default     = "aksprojectacr"
+  default     = "hackvmacr0516"
 }
 
 variable "vnet_name" {
@@ -55,7 +55,7 @@ variable "node_count" {
 variable "node_vm_size" {
   description = "VM size for each node"
   type        = string
-  default     = "Standard_B1s"
+  default     = "Standard_D4s_v3"
 }
 
 variable "kubernetes_version" {
