@@ -1,0 +1,10 @@
+# Terraform
+**/.terraform/
+**/*.tfstate
+.terraform.lock.hcl
+
+# Node.js
+node_modules/
+
+# IDE
+.vscode/
